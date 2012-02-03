@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string name="app_name">佰酷</string>  
+    
+    <!-- main -->
+    <string name="app_desp">演示功能：\n 1.支持拍视频，音频与照片。\n  2.上传分享到佰酷。\n\n</string>
+    <string name="take_video">拍视频</string>
+    <string name="take_audio">录音</string>
+    <string name="take_photo">拍照</string>
+    <string name="take_share">上传</string>
+    <string name="share_title">文件类型</string>
+    
+    <!-- audio -->
+	<string name="app_info">点\&quot;开始\&quot; 按钮开始录音, 点\&quot;停止\&quot; 按钮结束录音.</string>
+	<string name="choose_format_title">Choose Audio Format</string>
+	<string name="start_recording">开始</string>
+	<string name="stop_recording">结束</string>
+	<string name="audio_format">Format</string>
+	
+	<!-- header write activity -->
+	<string name="page_label_go_back">返回</string>
+	<string name="write_label_send">发送</string>
+	
+	<!-- 佰酷WAP页面 -->
+	<string name="page_status_updating">正在加载...</string>
+	<string name="page_status_success">加载完成</string>
+	<string name="page_status_unable_to_update">无法加载页面</string>
+	
+	<!-- 发送窗体 -->
+	<string name="write_label_send_hint">有什么话要说吗?</string>
+	
+	<!-- 登录对话框 -->
+    <string name="login_label_username">用户名</string>
+    <string name="login_label_password">密码</string>
+    <string name='login_label_button'>登录</string>
+    <string name='login_register_link'>没有帐号？ <a href="http://wap.baiku.cn">注册</a></string>
+    <string name="login_status_null_username_or_password">账号或密码不能为空</string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_status_failure">登录失败。</string>
+    
+    <!-- 底部栏 -->
+    <string name="footer_btn_home">主页</string>
+    <string name="footer_btn_video">视频</string>
+    <string name="footer_btn_photo">拍照</string>
+    <string name="footer_btn_audio">录音</string>
+    <string name="footer_btn_upload">分享</string>
+    <string name="footer_btn_about">关于</string>
+    
+    <!-- 上传对话框 -->
+    <string name="upload_label_title">内容:</string>
+    <string name="upload_title_hint">有什么想说的？</string>
+    <string name="upload_label_desp">描述:</string>
+    <string name="upload_label_tag">标签:</string>
+    <string name="upload_img_pick">选择文件</string>
+    <string name="upload_transfer">分享</string>
+    <string name="upload_local_video_pick">选择本地视频</string>
+    <string name="upload_local_photo_pick">选择本地图片</string>
+    <string name="upload_status_failure">上传失败</string>
+    <string name="upload_status_uploading_in">正在上传...</string>
+    <string name="upload_status_null_path">无文件上传</string>
+    <string name="upload_status_null_title">内容不能为空</string>
+    
+    <!-- 乐媒窗体 -->
+    <string name="lemedia_video">录制视频</string>
+    <string name="lemedia_photo">拍摄照片</string>
+    <string name="lemedia_audio">录制音频</string>
+    <string name="lemedia_video_local">选择本地视频</string>
+    <string name="lemedia_photo_local">选择本地照片</string>
+    <string name="lemedia_audio_local">选择本地音频</string>
+    
+    <!-- 关于对话框 -->
+    
+    <!-- options menu -->
+    <string name="omenu_settings">设置</string>
+    <string name="omenu_signout">注销</string>
+    <string name="omenu_about">关于</string>
+    <string name="omenu_exit">退出</string>
+    <string name="baiku_version">v1.0.1</string>
+    <string name="baiku_about_link">wap主页: http://wap.baiku.cn</string>
+    <string name="baiku_description">版权所有(c) 2011 北京青牛科技有限公司</string>
+    
+    <!-- 设置Preference -->
+    <string name="pref_title_network">wap</string>
+    <string name="pref_connect_wapsite_title">设置wap连接</string>
+    <string name="pref_connect_wapsite_summary">选中后可以切换到线下wap环境测试</string>
+        
+</resources>  

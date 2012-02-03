@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="47dp"
+    android:background="@drawable/bg_header"
+    android:gravity="center_vertical"
+    android:layout_alignParentTop="true" >
+    
+    <!-- 返回按钮 -->
+    <Button android:id="@+id/top_back"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentLeft="true"
+	    style="@style/simple_button"
+	    android:text="@string/page_label_go_back"
+	    />
+    
+    <!-- 发送按钮 -->
+    <Button android:id="@+id/top_send"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        style="@style/simple_button"
+        android:text="@string/write_label_send"
+        />      
+</RelativeLayout>

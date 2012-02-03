@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical" >
+    
+
+    <!-- 图片选择 -->
+    <TextView android:id="@+id/upload_local_video"
+        android:layout_width="90dp" 
+        android:layout_height="72dp" 
+        android:layout_marginLeft="40dp"
+        android:drawableTop="@drawable/upload_camera_default" 
+        android:text="@string/upload_local_video_pick"
+        style="@style/footer_button" 
+        />
+    <TextView android:id="@+id/upload_local_photo"
+        android:layout_width="90dp" 
+        android:layout_height="72dp"
+        android:layout_marginLeft="40dp" 
+        android:layout_toRightOf="@id/upload_local_video" 
+        android:drawableTop="@drawable/upload_media_default" 
+        android:text="@string/upload_local_photo_pick"
+        style="@style/footer_button" 
+        />
+
+    
+    <!-- 标题 -->
+    <TextView android:id="@+id/upload_title"
+        android:layout_width="50dp" 
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp" 
+        android:layout_marginLeft="10dp"
+        android:text="@string/upload_label_title" 
+        style="@style/normalText" 
+        />
+    <EditText android:id="@+id/upload_title_edit"
+        android:layout_width="300dp" 
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/upload_title"
+        android:gravity="top"
+        android:hint="@string/upload_title_hint"
+        android:textSize="15dp"
+        />
+    
+    <!-- 描述 
+    <TextView android:id="@+id/upload_desc"
+        android:layout_width="50dp" 
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/upload_title_edit"
+        android:text="@string/upload_label_desp"
+        style="@style/normalText" 
+        />
+    <EditText android:id="@+id/upload_desc_edit"
+        android:layout_width="300dp" 
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/upload_desc" 
+        />
+     -->
+    
+    <!-- 标签 -->
+    <TextView android:id="@+id/upload_tag"
+        android:layout_width="50dp" 
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/upload_title_edit"
+        android:text="@string/upload_label_tag"
+        style="@style/normalText" 
+        />
+    <EditText android:id="@+id/upload_tag_edit1"
+        android:layout_width="90dp" 
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/upload_tag" 
+        />
+    
+    <EditText android:id="@+id/upload_tag_edit2"
+        android:layout_width="90dp" 
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/upload_tag_edit1"
+        android:layout_below="@id/upload_tag" 
+        />
+    
+	<EditText android:id="@+id/upload_tag_edit3"
+        android:layout_width="90dp" 
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp" 
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/upload_tag_edit2"
+        android:layout_below="@id/upload_tag" 
+        />
+	
+	<!-- 上传 -->
+	<Button android:id="@+id/upload_transfer"
+	    android:layout_width="300dp" 
+	    android:layout_height="48dp"
+	    android:layout_marginTop="10dp" 
+	    android:layout_marginLeft="10dp"
+	    android:layout_below="@id/upload_tag_edit1"
+	    android:text="@string/upload_transfer"
+	    style="@style/blue_button" 
+	    />
+	
+	<!-- 图片预览 -->
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_below="@id/upload_transfer"
+	    android:padding="3dp">
+	    
+		<ImageView android:id="@+id/preview"
+		    android:layout_width="50dp"
+		    android:layout_height="fill_parent"
+		    android:layout_alignParentLeft="true"
+		    android:visibility="invisible"
+		    />
+		<ImageView android:id="@+id/image_delete"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/preview"
+		    android:layout_centerInParent="true"
+		    android:src="@drawable/delete"
+		    android:visibility="invisible"
+		    android:clickable="true"
+	    	/>
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true" >
+		<include android:id="@+id/footer" layout="@layout/footer"></include>
+	</RelativeLayout>
+</RelativeLayout>

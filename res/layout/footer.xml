@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 底部栏 -->
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:padding="0dp"
+        android:background="@drawable/maintab_toolbar_bg">
+
+		<TextView android:id="@+id/footer_btn_home"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1"
+	         style="@style/footer_button"
+	         android:drawableTop="@drawable/detail_home_selected"
+	         android:text="@string/footer_btn_home"
+	         />
+        <TextView android:id="@+id/footer_btn_video"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1"
+	         style="@style/footer_button"
+	         android:drawableTop="@drawable/detail_video_selected"
+	         android:text="@string/footer_btn_video"
+	         />
+         <TextView android:id="@+id/footer_btn_photo"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1"
+	         style="@style/footer_button"
+	         android:drawableTop="@drawable/detail_photo_selected"
+	         android:text="@string/footer_btn_photo"
+	         />
+         <TextView android:id="@+id/footer_btn_audio"
+         	android:layout_width="fill_parent"
+         	android:layout_height="fill_parent"
+         	android:layout_weight="1"
+         	style="@style/footer_button"
+         	android:drawableTop="@drawable/detail_audio_selected"
+         	android:text="@string/footer_btn_audio"
+         	/>
+         <TextView android:id="@+id/footer_btn_upload"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1"
+	         style="@style/footer_button"
+	         android:drawableTop="@drawable/detail_upload_selected"
+	         android:text="@string/footer_btn_upload"
+	         />
+         <!--  
+         <TextView android:id="@+id/footer_btn_about"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1"
+	         style="@style/footer_button"
+	         android:drawableTop="@drawable/detail_about_selected"
+	         android:text="@string/footer_btn_about"
+	         /> 
+         <TextView android:id="@+id/footer_btn_more"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="1"
+         style="@style/footer_button"
+         android:drawableTop="@drawable/detail_more_selected"
+         android:text="@string/footer_btn_more"
+         />
+         -->
+   </LinearLayout>

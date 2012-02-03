@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical" >
+    
+   	<RelativeLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      >
+	        
+	    <ImageView android:id="@+id/baiku_logo"
+	        android:src="@drawable/logo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="50dp"
+	         />
+	         
+	    <TextView android:id="@+id/baiku_version"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/baiku_logo"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/baiku_version"
+		    style="@style/normalText"
+	         />
+	    
+	    <TextView android:id="@+id/baiku_about_link"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/baiku_version"
+	        android:layout_centerHorizontal="true"
+			android:layout_marginBottom="5dp"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/baiku_about_link"
+	        android:autoLink="web|email"
+	        style="@style/normalText" />
+	    	   
+	    </RelativeLayout>
+	    
+   	    <RelativeLayout android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_alignParentBottom="true"
+   	        android:layout_marginBottom="25dp" >
+			
+			<TextView
+			    android:id="@+id/baiku_description"
+			    style="@style/normalText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentBottom="true"
+			    android:layout_centerHorizontal="true"
+			    android:text="@string/baiku_description" />
+
+   	    </RelativeLayout>
+</LinearLayout>
