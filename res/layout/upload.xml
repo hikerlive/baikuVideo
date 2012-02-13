@@ -5,7 +5,6 @@
     android:background="@drawable/background_login"
     android:orientation="vertical" >
     
-
     <!-- 图片选择 -->
     <TextView android:id="@+id/upload_local_video"
         android:layout_width="90dp" 
@@ -45,25 +44,6 @@
         android:hint="@string/upload_title_hint"
         android:textSize="15dp"
         />
-    
-    <!-- 描述 
-    <TextView android:id="@+id/upload_desc"
-        android:layout_width="50dp" 
-        android:layout_height="20dp"
-        android:layout_marginTop="5dp" 
-        android:layout_marginLeft="10dp"
-        android:layout_below="@id/upload_title_edit"
-        android:text="@string/upload_label_desp"
-        style="@style/normalText" 
-        />
-    <EditText android:id="@+id/upload_desc_edit"
-        android:layout_width="300dp" 
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp" 
-        android:layout_marginLeft="10dp"
-        android:layout_below="@id/upload_desc" 
-        />
-     -->
     
     <!-- 标签 -->
     <TextView android:id="@+id/upload_tag"
@@ -134,12 +114,5 @@
 		    android:visibility="invisible"
 		    android:clickable="true"
 	    	/>
-	</RelativeLayout>
-	
-	<RelativeLayout
-	    android:layout_width="fill_parent"
-	    android:layout_height="50dp"
-	    android:layout_alignParentBottom="true" >
-		<include android:id="@+id/footer" layout="@layout/footer"></include>
 	</RelativeLayout>
 </RelativeLayout>

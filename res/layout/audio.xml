@@ -3,6 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/background_login"
     android:padding="20dip">
     
     <ImageView
@@ -15,7 +16,7 @@
     	android:layout_width="fill_parent" 
     	android:layout_height="wrap_content" 
     	android:text="@string/app_info"
-    	android:layout_weight="1.0"
+    	style="@style/normalText"
     	android:textSize="20dip"/>
     	
     <LinearLayout
@@ -28,6 +29,7 @@
     		android:layout_height="wrap_content"
     		android:id="@+id/btnStart"
     		android:text="@string/start_recording"
+    		style="@style/blue_button"
     		android:layout_weight="1.0"/>
     		
 		<Button
@@ -35,6 +37,7 @@
     		android:layout_height="wrap_content"
     		android:id="@+id/btnStop"
     		android:text="@string/stop_recording"
+    		style="@style/blue_button"
     		android:layout_weight="1.0"/>
     		
     	<Button
